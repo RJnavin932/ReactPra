@@ -16,6 +16,7 @@ export default function ObjParent(){
     }
     let adddata =()=>{
        setDarr([...darr,data])
+       setData({Email:'',Lname:'',Fname:''})
     }
     return <>
       <ObjChild datahandel={datahandel} darr={darr} add={adddata} data={data}/>

@@ -2,7 +2,6 @@ import { useState } from "react";
 import Addbtn from "./Addbtn";
 import Todolist from "./Todolist";
 
-
 export default function Todo(){
     let [todo,setTodo]=useState([]);
     let [todoArray,setTodoarray]=useState({});
@@ -17,8 +16,9 @@ let array=(e)=>{
 }
 let additem =()=>{
     setTodo([...todo,todoArray])
-    console.log(todoArray);
+    console.log(todoArray);   
 }
+
 let deleteItem = (i)=>{
 
     let updateArray = todo.filter((data,index) => index !== i )
