@@ -10,6 +10,7 @@ import ObjParent from './obcompenent/Objusestate.jsx'
 import UseEffect from './obcompenent/useeffet/UseEffect.jsx'
 import Api from './obcompenent/useeffet/Api.jsx'
 import Obj from './arrayofobj/Obj.jsx'
+import Formval from './ReducerFormval/Parentform.jsx'
 
 createRoot(document.getElementById('root')).render(
   // <Parentcom/>
@@ -20,4 +21,5 @@ createRoot(document.getElementById('root')).render(
   // <UseEffect/>
   // <Api/>
   // <Obj/>
+  <Formval/>
 )
