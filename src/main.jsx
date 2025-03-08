@@ -11,6 +11,9 @@ import UseEffect from './obcompenent/useeffet/UseEffect.jsx'
 import Api from './obcompenent/useeffet/Api.jsx'
 import Obj from './arrayofobj/Obj.jsx'
 import Formval from './ReducerFormval/Parentform.jsx'
+import ArrayObject from './arrayofobj/obj2.jsx'
+import ParentTodoReducer from './todoReducer/Parentodo.jsx'
+import RGBColor from './RGBcolorgen/RGB.jsx'
 
 createRoot(document.getElementById('root')).render(
   // <Parentcom/>
@@ -21,5 +24,8 @@ createRoot(document.getElementById('root')).render(
   // <UseEffect/>
   // <Api/>
   // <Obj/>
-  <Formval/>
+  // <Formval/>
+  // <ArrayObject/>
+  // <ParentTodoReducer/>
+  <RGBColor/>
 )
