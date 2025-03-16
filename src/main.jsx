@@ -14,6 +14,11 @@ import Formval from './ReducerFormval/Parentform.jsx'
 import ArrayObject from './arrayofobj/obj2.jsx'
 import ParentTodoReducer from './todoReducer/Parentodo.jsx'
 import RGBColor from './RGBcolorgen/RGB.jsx'
+import HomeApi from './API/Homeapi.jsx'
+import ApiPract from './API/ApiPrac.jsx'
+import Reduxpage from './Redux/pages/Mainpage.jsx'
+import { Provider } from 'react-redux'
+import store from './Redux/Store/Store.js'
 
 createRoot(document.getElementById('root')).render(
   // <Parentcom/>
@@ -27,5 +32,10 @@ createRoot(document.getElementById('root')).render(
   // <Formval/>
   // <ArrayObject/>
   // <ParentTodoReducer/>
-  <RGBColor/>
+  // <RGBColor/>
+  // <HomeApi/>
+  // <ApiPract/>
+  <Provider store={store}>
+    <Reduxpage/>
+  </Provider>
 )

@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "name": "jaya naveen",
+      "class": "8thh std",
+      "id": "d340"
+    },
+    {
+      "id": "39c3bf95-5ea6-4beb-af4e-ed1fee753ef9",
+      "name": "raj",
+      "class": "5th std"
+    },
+    {
+      "id": "d5069e9a-07fa-4d74-950d-a565c60e02db",
+      "name": "ramesh",
+      "class": "6th Std"
+    },
+    {
+      "id": "b5e0",
+      "name": "Kathleen Riley",
+      "class": "Quia elit qui quam "
+    }
+  ]
+}
