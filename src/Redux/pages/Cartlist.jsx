@@ -37,7 +37,7 @@ export default function Cart(){
             <p>{data.price}</p>
             <p><button onClick={()=>incr(data.id)}disabled={data.qty == data.stock} >Increment</button>{data.qty}
             <button onClick={()=>decr(data.id)} disabled={data.qty <1}>Decrement</button></p>
-            <button onClick={()=>removedata(data.id)}>Remove Cart</button></div>)
+            <button onClick={()=>removedata(data.id)}>Remove</button></div>)
         }
         </div>
     </>

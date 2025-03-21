@@ -1,14 +1,14 @@
 export let data=[
     {
         id:1,
-        name:'raja',
+        name:'ram',
         city:'tuty',
         age:20,
         work:'webdeveloper'
     },
     {
         id:2,
-        name:'raja',
+        name:'rajesh',
         city:'tuty',
         age:20,
         work:'webdeveloper'
@@ -29,7 +29,7 @@ export let data=[
     },
     {
         id:5,
-        name:'raja',
+        name:'ramar',
         city:'tuty',
         age:20,
         work:'webdeveloper'

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { data, dnum } from "./arrayofobj"
 
 
-export default function Obj() {
+export default function Pagenation() {
 
     let [adata, setAdata] = useState(data);
     let [sdata, setSdata] = useState([]);

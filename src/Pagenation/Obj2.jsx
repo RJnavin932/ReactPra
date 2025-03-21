@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { data, dnum } from "./arrayofobj"
 
-export default function ArrayObject(){
+export default function Pagenation2(){
 
     let [adata,setAdata]=useState(data);
     let [getdata,setGetdata]=useState([]);
@@ -29,7 +29,7 @@ export default function ArrayObject(){
         }
 
         {
-            btn.map((d,i)=><button key={i} onClick={()=>onhandleclick(d)}>{d}</button>)
+            btn.map((d,i)=><button key={i} onClick={onhandleclick}>{d}</button>)
         }
       </div>
     </>

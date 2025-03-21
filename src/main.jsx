@@ -9,9 +9,7 @@ import Todo from './todolist/Todo.jsx'
 import ObjParent from './obcompenent/Objusestate.jsx'
 import UseEffect from './obcompenent/useeffet/UseEffect.jsx'
 import Api from './obcompenent/useeffet/Api.jsx'
-import Obj from './arrayofobj/Obj.jsx'
 import Formval from './ReducerFormval/Parentform.jsx'
-import ArrayObject from './arrayofobj/obj2.jsx'
 import ParentTodoReducer from './todoReducer/Parentodo.jsx'
 import RGBColor from './RGBcolorgen/RGB.jsx'
 import HomeApi from './API/Homeapi.jsx'
@@ -19,6 +17,11 @@ import ApiPract from './API/ApiPrac.jsx'
 import Reduxpage from './Redux/pages/Mainpage.jsx'
 import { Provider } from 'react-redux'
 import store from './Redux/Store/Store.js'
+import Pagenation from './Pagenation/Obj.jsx'
+import Pagenation2 from './Pagenation/Obj2.jsx'
+import Pagenation3 from './Pagenation/Pagenation3.jsx'
+import ReducerTodo from './todoReducer/Todoreducer.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   // <Parentcom/>
@@ -28,14 +31,19 @@ createRoot(document.getElementById('root')).render(
   // <ObjParent/>
   // <UseEffect/>
   // <Api/>
-  // <Obj/>
+  // <Pagenation/>
+  // <Pagenation2/>
   // <Formval/>
-  // <ArrayObject/>
   // <ParentTodoReducer/>
   // <RGBColor/>
   // <HomeApi/>
   // <ApiPract/>
-  <Provider store={store}>
-    <Reduxpage/>
-  </Provider>
+
+  // <Provider store={store}>
+  //   <Reduxpage/>
+  // </Provider>
+
+  // <Pagenation3/>
+  <ReducerTodo/>
+
 )

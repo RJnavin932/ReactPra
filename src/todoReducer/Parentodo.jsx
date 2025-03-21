@@ -45,7 +45,9 @@ export default function ParentTodoReducer(){
      <input type="text" onChange={(e)=>setGetinput(e.target.value)}/><button onClick={Add_todo}>Add</button>
      <ul>
        {
-        state.todo.map((d,i)=> <li key={i} style={{textDecoration: d.isCheck?'line-through':'none'}}> <input type="checkbox" onChange={()=>check_todo(i)} checked={d.isCheck}/>{d.name} <button onClick={()=>del_todo(i)}>Delete</button></li>)
+        state.todo.map((d,i)=> <li key={i} style={{textDecoration: d.isCheck?'line-through':'none'}}> 
+        <input type="checkbox" onChange={()=>check_todo(i)} checked={d.isCheck}/>{d.name} 
+        <button onClick={()=>del_todo(i)}>Delete</button></li>)
        }
      </ul>
      </>
