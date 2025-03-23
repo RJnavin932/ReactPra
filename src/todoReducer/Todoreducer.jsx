@@ -54,5 +54,5 @@ export default function ReducerTodo(){
         <input type="checkbox" onChange={()=>check_todo(i) } checked={d.isCheck}/>
         {d.name}<button onClick={()=>edit_todo(i)}>Edit</button><button onClick={()=>del_todo(i)}>Delete</button></li>)
     }
-    </>
+ ////   </>
 }
