@@ -1,0 +1,60 @@
+{
+  "Attendence": [
+    {
+      "id": "90a4",
+      "topicname": "inro",
+      "outtime": "18:25",
+      "intime": "06:25",
+      "Date": "2025-03-23",
+      "status": "present"
+    },
+    {
+      "id": "53aa",
+      "intime": "04:58",
+      "topicname": "inro",
+      "outtime": "18:25",
+      "status": "present",
+      "Date": "2025-03-23"
+    },
+    {
+      "id": "1416",
+      "intime": "06:25",
+      "topicname": "inro",
+      "outtime": "18:25",
+      "status": "absent",
+      "Date": "2025-03-23"
+    },
+    {
+      "id": "0b8b",
+      "intime": "19:08",
+      "topicname": "intro",
+      "outtime": "07:08",
+      "status": "holiday",
+      "Date": "2025-03-23"
+    },
+    {
+      "id": "9c47",
+      "intime": "13:09",
+      "topicname": "intro",
+      "outtime": "07:11",
+      "status": "holiday",
+      "Date": "2025-01-23"
+    },
+    {
+      "id": "853b",
+      "intime": "06:25",
+      "topicname": "inro",
+      "outtime": "18:25",
+      "status": "absent",
+      "Date": "2025-03-23"
+    },
+    {
+      "id": "1c48",
+      "intime": "06:25",
+      "topicname": "inro",
+      "outtime": "18:25",
+      "status": "absent",
+      "Date": "2025-03-23"
+    }
+  ]
+}

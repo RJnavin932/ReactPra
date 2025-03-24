@@ -21,6 +21,8 @@ import Pagenation from './Pagenation/Obj.jsx'
 import Pagenation2 from './Pagenation/Obj2.jsx'
 import Pagenation3 from './Pagenation/Pagenation3.jsx'
 import ReducerTodo from './todoReducer/Todoreducer.jsx'
+import SdtAttendence from './Attendence prj/SdtAttendence/SdtAttedence.jsx'
+import AdtStore from './Attendence prj/attedencestore/atdstore.js'
 
 
 createRoot(document.getElementById('root')).render(
@@ -44,6 +46,9 @@ createRoot(document.getElementById('root')).render(
   // </Provider>
 
   // <Pagenation3/>
-  <ReducerTodo/>
+  // <ReducerTodo/>
+  <Provider store={AdtStore}>
+      <SdtAttendence/>
+  </Provider>
 
 )

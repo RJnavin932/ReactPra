@@ -53,6 +53,5 @@ export default function ReducerTodo(){
         state.todo.map((d,i)=><li key={i} style={{textDecoration:d.isCheck?'line-through':'none'}}>
         <input type="checkbox" onChange={()=>check_todo(i) } checked={d.isCheck}/>
         {d.name}<button onClick={()=>edit_todo(i)}>Edit</button><button onClick={()=>del_todo(i)}>Delete</button></li>)
-    }
- ////   </>
+    } </>
 }
